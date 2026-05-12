@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>RUN</title>
+</head>
+
+<body>
+  
+
+
+ <!-- Menu Pour Mobile -->
+ <div id="mobile-menu" class="mobile-main-menu">
+  <ul>
+      <li><a id="menu-nav" href="index.html">Acceuil</a></li>
+      <li><a id="menu-nav" href="Basket.html" target="_blank">BASKETS</a></li>
+      <li><a id="menu-nav" href="Vêtements.html" target="_blank">VÊTEMENTS</a></li>
+      <li><a id="menu-nav" href="Accessoires.html" target="_blank">ACCESSOIRES</a></li>
+      <li><a id="menu-nav" href="signin.html">Connexion</a></li>
+      <li><a id="menu-nav" href="signup.html">Inscription</a></li>
+  </ul>
+</div>
+
+ <!-- Header et Menu-->
+<header class="main-header">
+  <div class="logo">
+    <a href="index.html">
+      <img src="img/logo_running1.jpg" alt="RUN Logo" />
+    </a>
+  </div>
+  <nav class="desktop-main-menu">
+    <ul>
+      <li><a id="menu-nav" href="index.html">Acceuil</a></li>
+      <li><a id="menu-nav" href="Basket.html" target="_blank">BASKETS</a></li>
+      <li><a id="menu-nav" href="Vêtements.html" target="_blank">VÊTEMENTS</a></li>
+      <li><a id="menu-nav" href="Accessoires.html" target="_blank">ACCESSOIRES</a></li>
+      <li><a id="menu-nav" href="signin.html">Connexion</a></li>
+      <li><a id="menu-nav" href="signup.html">Inscription</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hamburger Menu -->
+<button id="menu-btn" class="hamburger" type="button">
+  <span class="hamburger-top"></span>
+  <span class="hamburger-middle"></span>
+  <span class="hamburger-bottom"></span>
+</button>
+
+    <!-- Section A -->
+    <section class="section-a">
+      <div class="section-inner">
+        <!-- <h2 class="text-center">sign up&nbsp;&nbsp;</h2> -->
+        <div class="contact-clean">
+            <form method="post">
+                <h2 class="text-center">sign up&nbsp;&nbsp;</h2>
+                <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" id="name"></div>
+                <div class="form-group"><input class="form-control" type="text" name="prénom" placeholder="First name" id="prenom"></div>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" id="email"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password" id="password">
+                  <small class="text-danger invisible">Veuillez enter un mot de pass de longueur minimum 8 caractères</small>
+            </div>
+                <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14" ></textarea></div>
+                <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="formCheck-2">
+                        <label class="form-check-label" for="formCheck-2" id="age">I am of age</label>
+                    </div>
+                    <button class="btn btn-primary" type="button" onClick="verifierFormulaire()" id="button">send</button>
+                </div>
+            </form>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <footer>
+      <ul>
+        <li>SpaceX &copy; 2022</li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">YouTube</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </footer>
+</body>
+
+</html>
